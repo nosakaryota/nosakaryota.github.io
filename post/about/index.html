@@ -1,154 +1,200 @@
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | Gridea</title>
-<meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://nosakaryota.github.io/favicon.ico?v=1563329588661">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<title>
+    关于我 | 雾岛凉屿
+</title>
+<link rel="shortcut icon" href="https://nosakaryota.github.io/favicon.ico?v=1563706680325">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://nosakaryota.github.io/styles/main.css">
-
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://nosakaryota.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
+</head>
 
-  </head>
-  <body>
+<body>
     <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://nosakaryota.github.io">
-  <img class="avatar" src="https://nosakaryota.github.io/images/avatar.png?v=1563329588661" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://nosakaryota.github.io">
+                <img class="avatar" src="https://nosakaryota.github.io/images/avatar.png?v=1563706680325" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    雾岛凉屿
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              关于
-            </h2>
-            <div class="post-info">
-              <span>
-                2019-01-25
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>这是关于的页面，可以在这里向世界介绍你！</p>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            关于我
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2019-01-25</time>
+                            
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p><img src="https://nosakaryota.github.io/post-images/1563705795727.png" alt="野坂涼太Original Character"><br>
+(´▽｀)ノノ你好，不管是第一次见面还是老朋友，这里是<strong>野坂涼太</strong>w<br>
+——一位极度爱好摸鱼的骑空士兼职光之战士（还是一名转光生）~<br>
+OC是凯米尔美短，感谢饴野的帮忙绘制Thanks♪(･ω･)ﾉ</p>
+<p>兴趣爱好比较杂，涉猎范围比较广泛。</p>
+<p>UTAU非著名调教师和音源维护者，兴趣使然，偶尔会接接单子，自娱自乐。</p>
+<p>喜欢的乐队是ヨルシカ和MAN WITH A MISSION，其他方面没有太强的偏好。不过是一位远古国民（心心念念想去看一次Sound Horizon的Live）。</p>
+<p>退休大龄二次元（其实并没有很深去接触），喜欢看一些自己感兴趣题材的或者小众番剧（比起动漫我可能会更喜欢看日剧）。刑侦剧、医疗剧会看的比较多一点~</p>
+<p>目前在玩的游戏大概是这么几个：<br>
+最终幻想14、Elite Dangerous、碧蓝幻想、失落的龙约、东京放课后召唤师。<br>
+（Shadowverse白嫖玩家（划掉））<br>
+FF系列和Cy世界观的游戏属于是真的厨力爱好，世界观和剧情我都很喜欢。<br>
+ED的星际探险我也很感兴趣。<br>
+龙约的游戏性与Cy的合作很吸引我。<br>
+东放嘛，另一种意义上的厨力游戏。</p>
+<p>P.S.虽然本人很喜欢机工、火炮、枪械这些设定与职业（FF14机工主职），但是我是个不折不扣的FPS游戏白痴_(:з」∠)_</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://nosakaryota.github.io/images/avatar.png?v=1563706680325)">
         </div>
+        <h1 class="id_card-title">
+            雾岛凉屿
+        </h1>
+        <h2 class="id_card-description">
+            ……有什么遗忘的吗？
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                        <a href="http://twitter.com/nosakaryota" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-twitter"></i></a>
+                        
+                            <!-- weibo -->
+                            
+                                <a href="http://weibo.com/dandaniro" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-weibo"></i></a>
+                                
+                                    <!-- facebook -->
+                                    
 
-        
+        </div>
+    </div>
+    
+                                    
 
-        
+                </div>
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+  藍二乗 | 
   <a class="rss" href="https://nosakaryota.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
   hljs.initHighlightingOnLoad()
-
-  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-  // This should probably be throttled.
-  // Especially because it triggers during smooth scrolling.
-  // https://lodash.com/docs/4.17.10#throttle
-  // You could do like...
-  // window.addEventListener("scroll", () => {
-  //    _.throttle(doThatStuff, 100);
-  // });
-  // Only not doing it here to keep this Pen dependency-free.
-
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-
-    mainNavLinks.forEach((link, index) => {
-      let section = document.getElementById(decodeURI(link.hash).substring(1));
-      let nextSection = null
-      if (mainNavLinks[index + 1]) {
-        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-      }
-      console.log('section.offsetHeight', section.offsetHeight);
-      if (section.offsetTop <= fromTop) {
-        if (nextSection) {
-          if (nextSection.offsetTop > fromTop) {
-            link.classList.add("current");
-          } else {
-            link.classList.remove("current");    
-          }
-        } else {
-          link.classList.add("current");
-        }
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
-
 </script>
 
-      </div>
+
     </div>
-  </body>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
 </html>
